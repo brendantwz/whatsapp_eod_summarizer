@@ -1,0 +1,9 @@
+# WhatsApp EOD Report Generator - Dependencies
+
+# AI Providers (install based on your choice)
+anthropic>=0.39.0      # For Claude API (recommended)
+openai>=1.54.0         # For GPT-4 API (alternative)
+
+# Optional: For enhanced features
+python-dotenv>=1.0.0   # For .env file support
+

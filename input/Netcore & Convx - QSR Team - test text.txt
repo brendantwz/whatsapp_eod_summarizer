@@ -1,0 +1,234 @@
+06/10/2025, 14:52 - Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them. Learn more.
+06/08/2025, 11:54 - ~ SB created group "Netcore & Convx- QSR Team"
+06/10/2025, 14:52 - Cheng Pin (Convx) added you
+07/10/2025, 15:13 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ noticed this email template shared talks more on the expiry email -we discussed to prioritize the personalized journey comms on the 12th, are those ready?
+
+https://drive.google.com/drive/folders/1j6l3lASLWio_fyI0qwaMoxdXsPry8dPY
+07/10/2025, 15:15 - Stallion Rego: Journey 1 : Redemption reminder with Expiry Notice - Users with 3/6/9/12 slices
+Journey 2 : One slice away reminder with Expiry Notice - Users with 2/5/8/11 slices
+07/10/2025, 16:09 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩ , this email template is for Journey 1 in sync with Liyana, that based on the slide 11 here
+https://docs.google.com/presentation/d/1rFOOYWtdXeaC7kOI_VpM0wQRJohRcHuxZ_rsd6FnjAo/edit?slide=id.g387b9c06e05_0_0#slide=id.g387b9c06e05_0_0
+
+Could you clarify if this refers to personalized journey comms or it is something else? Also, once the layout and design are confirmed, we will change the copy for Journey 2 using the same format. Basically we are using the same format for both journeys.
+07/10/2025, 16:11 - Stallion Rego: Got it, this one actually is a one-time broadcast which is not time bound. We focus on journey 1 and 2 first (Slide #38 and #39).
+07/10/2025, 16:12 - Pei Fang (Convx): Also, I just found out Liyana is no longer with PH. Should we liaise directly with Sham moving forward?
+07/10/2025, 16:12 - Stallion Rego: Yes, wanted to update you guys on the same. We sort out the creatives ourselves and get it approved from Sham
+07/10/2025, 16:13 - Stallion Rego: We can connect tomorrow to finalize the creatives
+07/10/2025, 16:13 - Stallion Rego: The new CRM manager will be joining next week 13th
+07/10/2025, 16:16 - Pei Fang (Convx): Noted, shall we do tomorrow 10am?
+07/10/2025, 16:17 - Stallion Rego: 11am please if possible
+07/10/2025, 16:34 - Pei Fang (Convx): Yup can
+08/10/2025, 11:29 - Stallion Rego: <Media omitted>
+08/10/2025, 14:29 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩ , I've left comment on slide 38 & 39 before we proceed with the amendments. You can check it out
+https://docs.google.com/presentation/d/1rFOOYWtdXeaC7kOI_VpM0wQRJohRcHuxZ_rsd6FnjAo/edit?slide=id.g373d5a68167_0_958#slide=id.g373d5a68167_0_958
+08/10/2025, 14:48 - Stallion Rego: Sure @⁨Pei Fang (Convx)⁩ the copy sounds good, we can proceed! Please duplicate the existing templates for the changes
+08/10/2025, 15:23 - Pei Fang (Convx): Got it! Just to align for the visual that we shared for one-time broadcast, do we send it on 13 Nov or it is not scheduled yet?
+08/10/2025, 15:28 - Stallion Rego: We will decide the schedule for that one next month - maybe early nov
+08/10/2025, 16:50 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩ , we can’t find the original file of slide 38 in Gdrive that Liyana shared. Just wondering if you have it, or who should we get it from
+08/10/2025, 17:02 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ can you try this drive, it has all the assets:
+
+https://drive.google.com/drive/folders/1YcEM9SzcBwJg43BCbgtLSvoUnPKM6_Ad?usp=sharing
+10/10/2025, 11:00 - Brendan Zhi: Hi @⁨Stallion Rego⁩ & @⁨Pei Fang (Convx)⁩, I've created another sheet specifically for visual asset sharing within Pizza Hut CRM Campaign Calendar. I noticed that the visual asset is shared all over the place (dm, email, groups). Just want it to be centralized so, we smoothen out any possible frictions. Just a simple table, if you see any thing that would be a good addition. By all means, add it in! Thanks
+
+https://docs.google.com/spreadsheets/d/1DW6AV7KlNCq5h6iNq2_DC7Q021UFNj4fMbVCz3v5DC0/edit?gid=1658887619#gid=1658887619
+10/10/2025, 11:39 - Stallion Rego: Noted. Thanks @⁨Brendan Zhi⁩
+10/10/2025, 12:10 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ @⁨Brendan Zhi⁩ do we have the new templates ready for the 12th automation? We have to make the changes today - let me know what time we can connect.
+10/10/2025, 12:21 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩ , all copies and visuals are ready, pending to set up. Shall we connect at 3pm today, to go thru it in case anything goes wrong
+10/10/2025, 12:44 - Stallion Rego: Can we connect at 2pm? or 3.30pm?
+10/10/2025, 12:56 - Pei Fang (Convx): 3:30pm sounds good
+10/10/2025, 15:49 - Stallion Rego: <Media omitted>
+13/10/2025, 13:27 - Brendan Zhi: Hey @⁨Stallion Rego⁩, do you have any availability tomorrow 14th Oct (Tuesday) after 330pm? We can jump right into Abandonment Cart Journey based on our plan <This message was edited>
+13/10/2025, 13:32 - Brendan Zhi: Also a quick heads-up. Our designer will be out for wed-fri this week. So, one of the visuals for abandonment cart journey might not make it in time. Though we can still move ahead with setting up the flow and content logic first, then slot in the visual next week when its ready. How does that sound with you?
+13/10/2025, 13:45 - Stallion Rego: Hi @⁨Brendan Zhi⁩ noted on this, the flow is setup last time - we just need to slot in the visual next week
+13/10/2025, 13:45 - Stallion Rego: Won't be available next week - maybe we can connect on Wed to go over the other use cases
+13/10/2025, 13:46 - Brendan Zhi: Do you mean tomorrow not available? Sorry confuse by your reply 😅
+13/10/2025, 13:47 - Stallion Rego: Yes tomorrow, sorry
+13/10/2025, 13:48 - Brendan Zhi: This Wednesday. I'll only be available before 330pm or after 430pm
+13/10/2025, 13:48 - Brendan Zhi: We can do 2pm if that fits your time?
+13/10/2025, 13:48 - Stallion Rego: Lets do first half? 11 or 12?
+13/10/2025, 13:49 - Brendan Zhi: 11am sounds good to me. Let's lock that in
+22/10/2025, 13:56 - Stallion Rego: Hi @⁨Brendan Zhi⁩ hope you had a good deepavali break. Wanted to check when we can add on the cart abandon creative?
+22/10/2025, 18:17 - Brendan Zhi: Hi Stallon, apologies. My message didn't go through. @⁨Pei Fang (Convx)⁩ will be liasing with our designer on the creative. Will get this up by end of this week.
+22/10/2025, 18:18 - Brendan Zhi: Just curious. If I recalled correctly. There are offline meet up with PH team supposing tomorrow or that is no longer the case?
+23/10/2025, 12:03 - Stallion Rego: Hey Brendan - Sham just got back from her leaves today. I'll follow up and confirm a time.
+23/10/2025, 12:11 - Stallion Rego: @⁨Pei Fang (Convx)⁩ @⁨Brendan Zhi⁩ here is the report I've prepared for the meeting for your reference. At the end of these slides we will present the opportunities - the entire CRM plan + high impact initiatives.
+
+https://www.canva.com/design/DAGwxZIp1_U/77W3ZmhTrFUxUVG1wrsS3Q/edit?utm_content=DAGwxZIp1_U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+23/10/2025, 12:50 - Brendan Zhi: Hi Stallon, thanks for this. Just noticed it from your slide. Do you expect us to add the deck that I share with you into yours? 
+
+Or no action. Basically just swapped the presentation slide after you shared yours based on your flow
+23/10/2025, 12:50 - Stallion Rego: Just share your ppt version with me - I will incorporate into these slides.
+23/10/2025, 12:51 - Brendan Zhi: It's in the email that I shared last Friday 🙏🏼
+23/10/2025, 12:54 - Stallion Rego: Yup its a pdf - can you share the ppt version
+23/10/2025, 12:55 - Brendan Zhi: Oh my bad. Gimme a moment. Will forward to you
+23/10/2025, 13:45 - Brendan Zhi: Hi Stallon, I've forwarded to you via email. Please check 👌🏼
+23/10/2025, 13:56 - Stallion Rego: Received, thanks Brendan
+24/10/2025, 11:18 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ @⁨Brendan Zhi⁩ I am connecting with Asyila later to discuss the automation journeys plan. It would be great if you guys can join in too. Later today at 3pm.
+24/10/2025, 11:28 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩ , I have another meeting clash at 3pm, would any other time today work instead?
+24/10/2025, 11:40 - Stallion Rego: Okay no problem - will connect with you guys later
+24/10/2025, 18:03 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩ , a quick update on the cart abandon visual - the creative will be ready by next Monday. Shall we schedule a time to set up and go through what’s been discussed with Asyila as well?
+27/10/2025, 10:46 - Stallion Rego: Morning @⁨Pei Fang (Convx)⁩ we need to connect on the Hut Rewards expiry plan as well. Are you free today second half?
+
+Phase 1 - Early Awareness (1 email / month) - Oct 
+- Added expiry reminder in the the existing personalised reward reminder (12th of the month) ✅
+
+Phase 2 - Aggressive Reminder (2 emails / month) - Nov
+- Standalone email with expiry reminder on 1st week of Nov
+- Personalised email with reminder on 12th of the month
+- Nudges on the app/web for additional visibility
+
+Phase 3 - Final Reminder (3 emails / month) - Dec
+- Standalone email in the first week
+- Personalised email with reminder on 12th of the month
+- Final reminder after 20th Dec
+- Additional nudges on the app/web throughout the month <This message was edited>
+27/10/2025, 11:03 - Pei Fang (Convx): Yup, would 2pm today work for you?
+27/10/2025, 17:29 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩ , I’ve slot in the visual for Abandon Cart Journey 2025, under content - ID 1258. This will be the second email, sent 24 hours after the first one. I believe the EDM, web push & app push sent 15 minutes after atc will be continue using the current version yeah?
+27/10/2025, 18:46 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ we can use the existing creatives for the app and web push
+28/10/2025, 12:58 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩, yup, let us set it up. Meanwhile would you open to call anytime tomorrow? Apart from 3:30-4:30pm
+28/10/2025, 13:24 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ sorry cannot connect tomorrow, are you available today 3pm or after that?
+28/10/2025, 13:26 - Pei Fang (Convx): Yep, let’s do today 3pm
+29/10/2025, 16:40 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ the Pizza Hut meeting is scheduled for 2-3pm this Friday - are you guys okay?
+29/10/2025, 16:48 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩ , will it be an offline/online meeting?
+29/10/2025, 16:48 - Stallion Rego: Offline
+29/10/2025, 16:52 - Pei Fang (Convx): Just to confirm, will we be presenting this report or if there’s any other agenda?
+29/10/2025, 17:18 - Stallion Rego: Yes both of us presenting
+29/10/2025, 17:18 - Stallion Rego: I'll walk you through
+29/10/2025, 17:33 - Pei Fang (Convx): Got it! Yup this Friday 2-3pm works. Jonas and I will be joining in person, and Brendan will join online
+29/10/2025, 17:38 - Stallion Rego: Okay great
+29/10/2025, 17:39 - Stallion Rego: Let me forward the invite
+30/10/2025, 16:14 - Stallion Rego: https://www.canva.com/design/DAGwxZIp1_U/77W3ZmhTrFUxUVG1wrsS3Q/edit?utm_content=DAGwxZIp1_U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+31/10/2025, 19:14 - +60 16-631 4718: hi team - adding @⁨+60 11-6278 4501⁩ Mayank here
+31/10/2025, 19:14 - ~ SB added +60 11-6278 4501
+31/10/2025, 19:14 - +60 16-631 4718: thanks @⁨~Balakumaran⁩ for your support 🙏
+Wish you all the best
+31/10/2025, 19:15 - ~ SB removed ~ Balakumaran
+03/11/2025, 14:03 - Brendan Zhi: Hi @⁨Stallion Rego⁩, is the CRM x Netcore weekly sync meeting done physical or through teams?
+03/11/2025, 14:13 - Stallion Rego: Hi Brendan, we do via teams
+03/11/2025, 14:13 - Brendan Zhi: Was sitting in the teams for around 10 minutes. Don't think anyone has brought me in the call
+03/11/2025, 14:13 - Stallion Rego: The call is at 3pm
+03/11/2025, 14:14 - Brendan Zhi: Oh wasn't this call 2pm earlier. My apologies. I must have mistaken. 🤦🏼‍♂
+03/11/2025, 14:15 - Brendan Zhi: Big mistake. Sorry2
+03/11/2025, 14:56 - Stallion Rego: Hi @⁨Brendan Zhi⁩ @⁨Pei Fang (Convx)⁩ I'm creating a weekly tracker for the initiatives we discussed the other day. Can you review and add as well in case I missed anything.
+
+https://docs.google.com/spreadsheets/d/1DW6AV7KlNCq5h6iNq2_DC7Q021UFNj4fMbVCz3v5DC0/edit?gid=1622630246#gid=1622630246
+07/11/2025, 14:35 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ @⁨Brendan Zhi⁩ I hope we can present the first-draft of the journey plan for newbies and lapsers in our Monday syncup to Asyila / Sham ?
+07/11/2025, 14:39 - Pei Fang (Convx): Yup, we’ll share the overview deck for both journeys by EOD, and go through it together during Monday’s session.
+07/11/2025, 16:01 - Stallion Rego: Awesome sounds good
+12/11/2025, 12:05 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ @⁨Brendan Zhi⁩ are you guys free today at 4pm? To regroup with Asyila
+12/11/2025, 12:32 - Pei Fang (Convx): Hi Stallon, we have a call until 4:30pm. Can we do anytime before 3:30pm?
+12/11/2025, 12:36 - Stallion Rego: Okay no worries - I'll connect with her and update you guys
+12/11/2025, 12:40 - Pei Fang (Convx): Sounds good, thanks Stallon!
+17/11/2025, 11:25 - Stallion Rego: <Media omitted>
+17/11/2025, 11:31 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩, sure. I agree that we should switch to a higher quality image for this.
+
+Could you advise if there are any high-resolution images we can refer to or source from? At the moment, we only have access to the two asset folders below:
+https://drive.google.com/drive/folders/1YcEM9SzcBwJg43BCbgtLSvoUnPKM6_Ad
+https://drive.google.com/file/d/1U8Wviy8j8T7C7ErwJbpXFCKPqnmIL_Rs/view
+17/11/2025, 11:33 - Stallion Rego: I'd suggest to take a look on the website and then request Asyila to get the working file from designer
+17/11/2025, 11:36 - Pei Fang (Convx): Got it, will reach out to Asyila directly on this
+17/11/2025, 15:42 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ notes from the call for you to share : https://notes.granola.ai/d/98d4dc12-9191-467f-aab5-72733b4b4c42
+17/11/2025, 15:48 - Pei Fang (Convx): Thank you @⁨Stallion Rego⁩ !
+17/11/2025, 17:14 - Jonas Lim (Convx): Thanks for the call @⁨+60 11-6278 4501⁩.
+
+@⁨Pei Fang (Convx)⁩ @⁨Brendan Zhi⁩ @⁨Cheng Pin (Convx)⁩  PizzaHut team would like get a report on work done and numbers for month of October. @⁨+60 11-6278 4501⁩ can share more details on that and we need to put together a report to value prove both Netcore product and Convx services. Kindly assist and produce a comprehensive report. <This message was edited>
+19/11/2025, 12:31 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ hope you are preparing the new user journey overview for Asyila. Can we connect today to go over the same and make sure its full proof?
+19/11/2025, 12:42 - Pei Fang (Convx): Hi Stallon, I’ll be sharing the milestone and a journey overview with Asyila today. Just a one slide as requested. Shall we connect until I drafted the full journey details?
+19/11/2025, 12:43 - Stallion Rego: We can connect before sharing
+19/11/2025, 12:48 - Pei Fang (Convx): Okay, let’s connect at 4:30pm today?
+19/11/2025, 17:29 - Stallion Rego: Thanks for the call @⁨Pei Fang (Convx)⁩ the journey plan looks solid. As discussed, lets please start preparing the content so we can take the journey live this month itself.
+
+We will have another follow-up meeting with the CMO early Dec and she would expect to see some progress.
+19/11/2025, 17:36 - Pei Fang (Convx): Sure, we will start prepping the content. Thanks for the heads up Stallon
+25/11/2025, 09:17 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ good morning. Can you help Asyila with the Sooka campaign request?
+25/11/2025, 09:22 - Pei Fang (Convx): Morning @⁨Stallion Rego⁩ , do you mean the campaign set up?
+25/11/2025, 09:30 - Stallion Rego: Yes, the segment and campaign
+25/11/2025, 09:31 - Stallion Rego: I think Asyila already shared the content over email
+25/11/2025, 10:41 - Pei Fang (Convx): I’ve input everything from the email. Before we proceed, could you review the segment and content to ensure everything is set up correctly?
+
+Campaign ID: 3808
+Campaign name: Sooka Campaign
+https://pr8r.netcoresmartech.com/pizzahutmy/admin/index.php/campaign/unified/view/3808/draft?channel=email&campaignName=Sooka%20Campaign&campaignType=regular&oldFlag=0&viewFrom=list&reachability=1&refresh_required=0&amp_integration=
+25/11/2025, 10:50 - Brendan Zhi: <Media omitted>
+01/12/2025, 11:57 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ @⁨Brendan Zhi⁩ wanted to check if we have the content strategy ready for the newbie journeys discussed? It would be a good time to review with Asyila and get started with testing.
+01/12/2025, 12:04 - Pei Fang (Convx): Hi Stallon, as per last sync with Asyila, there will have some amendments to the journey points to be discussed. Once that is finalised, we will further dive into the content details
+01/12/2025, 12:11 - Stallion Rego: Okay I hope these conversations are being documented. If there are delays in finalization make sure its documented yeah
+04/12/2025, 16:02 - Stallion Rego: Hi @⁨Brendan Zhi⁩ @⁨Pei Fang (Convx)⁩ thanks for joining the call - lets share the minutes and next steps for Asyila and wait for her response on the initiatives she wants us to drive this month.
+04/12/2025, 16:02 - Stallion Rego: Chat with meeting transcript: [https://notes.granola.ai/t/97e49d61-3533-44c7-b119-0ea19c5851a1](https://notes.granola.ai/t/97e49d61-3533-44c7-b119-0ea19c5851a1)
+04/12/2025, 16:03 - Stallion Rego: Also, I feel we should drive an AB test for the late-lunch opportunity we identified last time. Aileen liked it and it won't take much time to push out a few Push Notifications to test the waters. A quick win perhaps if it works.
+04/12/2025, 16:07 - Pei Fang (Convx): Thanks Stallon for sharing this. Yup sounds good, let us start prepping that details out
+04/12/2025, 16:17 - Stallion Rego: Also, @⁨Pei Fang (Convx)⁩ when you create any broadcast campaign on the dashboard, please use the following naming convention. Got to know that some backend logics are added to identify our contribution from the "VV CRM" tag added in the name. Also the segment should be populated from CDP and not Netcore : 
+
+VV CRM - VALUE - PN - 211125 - YEP VALUE - CONVERSION - ALL CUSTOMER
+04/12/2025, 16:40 - Pei Fang (Convx): Could you share on what’s the structure of the naming, and what should we name it for SOOKA campaign for example? For the segment number, do you mean we can only justify it based on CDP?
+04/12/2025, 16:43 - Stallion Rego: Yup, the value management dashboard that they have built is based on the segments created via CDP. Basically they match the activation name on CDP to the list used in our campaign.
+
+Campaign sample: VV CRM - LTO - EDM - 261125 - SOOKA CAMPAIGN - ENGAGEMENT - KLANG
+04/12/2025, 18:05 - Pei Fang (Convx): Alrightt noted that
+08/12/2025, 11:37 - Stallion Rego: <Media omitted>
+08/12/2025, 12:53 - Brendan Zhi: What would you recommend in naming convention?
+08/12/2025, 12:53 - Stallion Rego: Here follow this ^
+08/12/2025, 12:55 - Stallion Rego: For example : VV CRM - VALUE - APN - 091225 - 2 FOR RM22 - CONVERSION - ALL APP USER
+08/12/2025, 12:57 - Stallion Rego: We try to tag the campaign category based on the following:
+- VALUE - for app only deals or cheaper value offers
+- LTO - for limited time only menu promos
+- TACTICAL - if targeted to a specific group / segment
+- ADHOC - for other one time requests not tied to any campaign
+08/12/2025, 14:53 - +60 11-6278 4501: Hi @⁨Jonas Lim (Convx)⁩ 
+
+Requesting the team to please try and update roadmap with KPIs on weekly basis? 
+
+This will be a single source of truth to have no conflicts in future- I am taking buy in from Pizza hut on this so that October type situation never arises in future. 
+
+https://docs.google.com/spreadsheets/d/1DW6AV7KlNCq5h6iNq2_DC7Q021UFNj4fMbVCz3v5DC0/edit?usp=sharing
+08/12/2025, 14:58 - Jonas Lim (Convx): Thanks for sharing this @⁨+60 11-6278 4501⁩ , @⁨Pei Fang (Convx)⁩ kindly support on this as I too agree we need something for them to track with high confidence
+08/12/2025, 15:11 - Brendan Zhi: Hi @⁨Stallion Rego⁩, can you assist me on checking for one-time blast EDM on netcore. Please help to verify and advise req:
+1. Campaign name
+2. Segments/List target name --> I have used (ID-1203 Active App Users && ID-1097 VV_Active 90D_660215)
+
+*Segment focuses on group:*
+1. Recent Active Users (<90days)
+2. App Users (someone who install & engaged) / Partial App users (someone who install but didn't engage)
+
+*Campaign:*
+https://pr8r.netcoresmartech.com/pizzahutmy/admin/index.php/campaign/unified/view/3811/draft?channel=email&campaignName=CRM%20-%20EDM%20-%20211225%20-%20App%20Only%20Deal&campaignType=regular&oldFlag=0&viewFrom=list&reachability=1&refresh_required=0&amp_integration=
+08/12/2025, 15:12 - Brendan Zhi: I've also send an email on this in the email title thread --> [December '25] App Only Deal CRM Comms
+08/12/2025, 15:12 - Brendan Zhi: Also while you are at it. Please double check on the campaign name that you pointed out this morning. I've made the amendments. Thanks <This message was edited>
+08/12/2025, 15:28 - Stallion Rego: Sure Brendan, allow me to check and update you
+08/12/2025, 15:28 - Brendan Zhi: Awesome. Thanks
+08/12/2025, 15:40 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ @⁨Brendan Zhi⁩ available to connect for 10 mins? I wanted to show you guys on how to choose the segment logics and activations from CDP
+08/12/2025, 15:44 - Brendan Zhi: I'm available
+08/12/2025, 15:45 - Pei Fang (Convx): Yup I’m open to call too
+08/12/2025, 15:45 - Stallion Rego: https://meet.google.com/vge-xrpb-dmp
+08/12/2025, 15:45 - Stallion Rego: cool lets connect here
+09/12/2025, 16:14 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ @⁨Brendan Zhi⁩ need to complete the expiry reminders this month. Can we work on the last 2 please
+
+- nudges ✅ (out)
+- 12th journey edm - ✅scheduled
+- 12th reminder edm - for those not part of the journey
+- 20th reminder edm - for all users "10 days left"
+09/12/2025, 16:18 - Stallion Rego: We can get the content approved from Asyila in tomorrow' call
+09/12/2025, 17:04 - Pei Fang (Convx): No problem, let us prep that
+10/12/2025, 15:55 - Stallion Rego: Hi @⁨Brendan Zhi⁩ @⁨Pei Fang (Convx)⁩ would recommend using some of the netcore features in the campaigns we are executing - for e.g countdown timer template for 1212 last call apn
+10/12/2025, 16:11 - Brendan Zhi: Ok sounds interesting. Can you please point and show some examples on how that works?
+10/12/2025, 16:14 - Stallion Rego: <Media omitted>
+10/12/2025, 16:18 - Brendan Zhi: <Media omitted>
+10/12/2025, 16:18 - Stallion Rego: You will have a change template option at the top above the title
+10/12/2025, 18:08 - Brendan Zhi: <Media omitted>
+10/12/2025, 18:16 - Stallion Rego: The time to live you need to keep within the timer end time. E.g. if timer ends on 12th 11pm then your TTL on schedule page should be 12th 11pm or 10pm
+11/12/2025, 17:06 - Stallion Rego: <Media omitted>
+17/12/2025, 14:46 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩ , could you grant the access to Brendan and I for setting up app nudges, so that we can assist on the execution when it’s needed. I believe it should be under Engage > Personalization > App
+18/12/2025, 11:36 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ yes I'll walk you guys through today on how to setup nudges. Are you guys free around 5pm?
+18/12/2025, 12:35 - Stallion Rego: Hi @⁨Jonas Lim (Convx)⁩ @⁨Cheng Pin (Convx)⁩ @⁨Pei Fang (Convx)⁩ @⁨Brendan Zhi⁩ we have aligned with Sham to have a business review and roadmap planning session in week of 12th Jan 2026. We will first run through the plan with Sham online and then schedule for the session with Aileen in person the following week.
+
+Let's create a comprehensive data-driven roadmap with potential opportunities that we identify backed by projected uplift that we can bring in 2026. We will voice out the plans, get feedback and then lock it in with clear timelines for both sides to strictly follow.
+
+I will help put together the data for what has been done so far but would need your expertise on the road-mapping.
+18/12/2025, 12:36 - Stallion Rego: CC: @⁨~SB⁩ @⁨+60 11-6278 4501⁩
+18/12/2025, 14:22 - Pei Fang (Convx): Hi Stallon, would tomorrow 3-4pm work for you instead?
+19/12/2025, 08:29 - Stallion Rego: Hi @⁨Pei Fang (Convx)⁩ I have a call at that time anytime before or after 3-4 works
+05/01/2026, 12:43 - Stallion Rego: Hi Team - Wishing you all a Happy New Year. Hope everyone had a good break 💪🏼
+
+As discussed, we are scheduling a two hour workshop with Sham and team for planning out the next 5 months where we share them clear opportunities and impact. Let's connect this week to review the same internally first - what would be a good time?
+05/01/2026, 17:16 - Pei Fang (Convx): Hi @⁨Stallion Rego⁩ , could we do this Thursday 2pm for internal sync?
+06/01/2026, 11:26 - Stallion Rego: Hi @85723336159279 Yes works for me <This message was edited>
