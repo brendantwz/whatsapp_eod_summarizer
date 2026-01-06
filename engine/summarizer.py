@@ -8,7 +8,7 @@ import json
 import os
 import sys
 from datetime import datetime
-from parser import parse_whatsapp_chat
+from .parser import parse_whatsapp_chat
 
 
 # AI Provider Configuration

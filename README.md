@@ -1,111 +1,184 @@
 # WhatsApp EOD Report Generator
 
-**Transform messy WhatsApp group chats into professional end-of-day construction reports using AI.**
+**Transform WhatsApp group chats into professional end-of-day construction reports using AI.**
 
 ---
 
-## 🎯 What This Does
+## 🚀 Quick Start (5 Minutes)
 
-**Input**: Raw WhatsApp chat export (.txt file)
-```
-07/10/2025, 15:13 - John: Foundation pour delayed by rain
-07/10/2025, 16:30 - Sarah: Steel delivery confirmed for tomorrow
-...
+### 1. Install Dependencies
+```bash
+pip install -r engine/requirements.txt
 ```
 
-**Output**: Structured markdown report (1 page, 6 sections)
-```markdown
-## Site: Construction Site Alpha
-## Date: 07/10/2025
+### 2. Choose AI Provider & Set API Key
 
-### 1. Overall Site Status
-Work progressed despite weather delays...
+**Pick ONE option:**
 
-### 2. Work Completed Today
-- Steel reinforcement installation completed
-- Site preparation for foundation pour
+#### Option A: Anthropic Claude (Recommended)
+```powershell
+# Windows PowerShell
+$env:AI_PROVIDER='anthropic'
+$env:ANTHROPIC_API_KEY='sk-ant-your-key-here'
 
-### 3. Issues / Delays
-- Foundation pour delayed due to heavy rain
+# Mac/Linux
+export AI_PROVIDER=anthropic
+export ANTHROPIC_API_KEY='sk-ant-your-key-here'
+```
+- **Cost**: $0.05/report
+- **Get key**: https://console.anthropic.com/
 
-### 4. Risks / Attention Required
-- **Weather forecast shows continued rain** (critical)
+#### Option B: OpenAI GPT-4
+```powershell
+# Windows PowerShell
+$env:AI_PROVIDER='openai'
+$env:OPENAI_API_KEY='sk-your-key-here'
 
-### 5. Tomorrow's Planned Work
-- Steel delivery at 9:00 AM
-- Resume foundation work if weather permits
+# Mac/Linux
+export AI_PROVIDER=openai
+export OPENAI_API_KEY='sk-your-key-here'
+```
+- **Cost**: $0.04/report
+- **Get key**: https://platform.openai.com/
 
-### 6. Decisions Needed
-- Approve alternative waterproofing method
+#### Option C: OpenRouter (100+ Models)
+```powershell
+# Windows PowerShell
+$env:AI_PROVIDER='openrouter'
+$env:OPENROUTER_API_KEY='sk-or-your-key-here'
+
+# Mac/Linux
+export AI_PROVIDER=openrouter
+export OPENROUTER_API_KEY='sk-or-your-key-here'
+```
+- **Cost**: $0.03-0.08/report
+- **Models**: Claude, GPT-4, Gemini, Llama, and more
+- **Get key**: https://openrouter.ai/keys
+
+### 3. Verify Setup
+```bash
+python scripts/check_setup.py
+```
+
+### 4. Generate Your First Report
+```bash
+python scripts/generate_report.py "input/Netcore & Convx - QSR Team - test text.txt" "Test Site"
 ```
 
 ---
 
-## ⚡ Quick Start (5 Minutes)
-
-### **👉 [START_HERE.md](START_HERE.md) - Complete Setup Guide**
-
-Follow these simple steps:
-1. Install dependencies (`pip install`)
-2. Choose AI provider (Anthropic, OpenAI, or OpenRouter)
-3. Set API key (copy-paste command)
-4. Verify setup (`check_setup.py`)
-5. Generate your first report!
-
----
-
-## 📦 What's Included
-
-### Core Scripts
-- **`generate_report.py`** ⭐ - **USE THIS ONE** - Complete pipeline (parse + summarize)
-- `parser.py` - Message extraction engine
-- `summarizer.py` - AI-powered report generation
-- `run.py` - Parse-only mode (for validation)
-- `check_setup.py` - Environment verification tool
-
-### Documentation
-- **`START_HERE.md`** ⭐ - Quick setup guide (start here!)
-- `README.md` - This file (project overview)
-- `SETUP.md` - Detailed setup & troubleshooting
-- `docs/` - Additional guides and examples
-
----
-
-## 🚀 Daily Usage
+## 📦 Daily Usage
 
 ### The ONE Command You Need
-
 ```bash
-python generate_report.py "input/your-chat.txt" "Your Site Name"
+python scripts/generate_report.py "input/your-chat.txt" "Your Site Name"
 ```
 
-That's it! This does everything:
-- ✅ Parses WhatsApp messages
-- ✅ Filters system messages
-- ✅ Cleans Unicode artifacts
-- ✅ Sends to AI for analysis
-- ✅ Generates structured report
-- ✅ Saves both JSON and Markdown
-
-**Output files:**
-- `output/your-chat_parsed.json` - Clean data
-- `output/your-chat_eod_report.md` - Final report
+**Output:**
+- `output/your-chat_parsed.json` (clean data)
+- `output/your-chat_eod_report.md` (professional report)
 
 ---
 
-## 🤖 AI Provider Options
+## 📁 Project Structure
 
-| Provider | Cost/Report | Best For | Get API Key |
-|----------|------------|----------|-------------|
-| **Anthropic Claude** | $0.05 | Quality & reliability | [console.anthropic.com](https://console.anthropic.com/) |
-| **OpenAI GPT-4** | $0.04 | Familiarity with ChatGPT | [platform.openai.com](https://platform.openai.com/) |
-| **OpenRouter** 🆕 | $0.03-0.08 | 100+ models in one API | [openrouter.ai/keys](https://openrouter.ai/keys) |
+```
+whatsapp-eod/
+├── README.md              ← You are here (complete guide)
+├── SETUP.md               ← Troubleshooting only
+│
+├── scripts/               ⚙️ Scripts you run
+│   ├── generate_report.py ← Main script (use this!)
+│   ├── run.py             ← Parse only (validation)
+│   └── check_setup.py     ← Verify environment
+│
+├── engine/                🔧 Core functionality
+│   ├── parser.py          ← Message extraction
+│   ├── summarizer.py      ← AI integration (API config here)
+│   └── requirements.txt   ← Dependencies
+│
+├── input/                 ← Put WhatsApp .txt files here
+├── output/                ← Generated reports appear here
+└── docs/                  ← Reference documentation
+```
+
+---
+
+## 🔧 Which Script to Use
+
+| Script | Purpose | When to Use |
+|--------|---------|-------------|
+| **generate_report.py** | Complete pipeline | **99% of the time** |
+| run.py | Parse only (no AI) | Check parsing quality first |
+| check_setup.py | Verify environment | Troubleshooting |
+
+### Main Script: generate_report.py
+```bash
+python scripts/generate_report.py "input/chat.txt" "Site Name"
+```
+- Parses WhatsApp messages
+- Cleans and validates
+- AI summarization
+- Saves JSON + Markdown report
+
+### Parse Only: run.py
+```bash
+python scripts/run.py "input/chat.txt"
+# Review: output/chat_parsed.json
+# Then if good:
+python engine/summarizer.py "output/chat_parsed.json" "Site Name"
+```
+
+### Diagnostics: check_setup.py
+```bash
+python scripts/check_setup.py
+```
+Shows what's configured correctly and what needs fixing.
+
+---
+
+## 🤖 AI Configuration
+
+**All API settings are in ONE file: `engine/summarizer.py`**
+
+### Lines 14-25: API Key Configuration
+```python
+AI_PROVIDER = os.getenv("AI_PROVIDER", "anthropic")
+
+if AI_PROVIDER == "anthropic":
+    API_KEY = os.getenv("ANTHROPIC_API_KEY")     # ← Line 18
+elif AI_PROVIDER == "openai":
+    API_KEY = os.getenv("OPENAI_API_KEY")        # ← Line 20
+elif AI_PROVIDER == "openrouter":
+    API_KEY = os.getenv("OPENROUTER_API_KEY")    # ← Line 22
+```
+
+### Lines 106-197: AI Provider Functions
+
+| Lines | Function | Provider | Change Model |
+|-------|----------|----------|--------------|
+| 106-133 | `summarize_with_anthropic()` | Claude | Edit line 106 |
+| 136-165 | `summarize_with_openai()` | GPT-4 | Edit line 136 |
+| 168-197 | `summarize_with_openrouter()` | OpenRouter | Edit line 168 |
+
+**To change AI model:**
+1. Open `engine/summarizer.py`
+2. Go to the appropriate line (106, 136, or 168)
+3. Edit the `model=` parameter
+
+**OpenRouter model examples (line 168):**
+```python
+model="anthropic/claude-3.5-sonnet"  # Claude
+model="openai/gpt-4"                  # GPT-4
+model="google/gemini-pro"             # Gemini
+model="meta-llama/llama-3-70b"       # Llama 3
+```
 
 ---
 
 ## 📊 Report Structure (Always Consistent)
 
-Every report follows this exact structure:
+Every report follows this exact format:
 
 ```markdown
 ## Site: {site_name}
@@ -115,14 +188,13 @@ Every report follows this exact structure:
 [Executive summary paragraph]
 
 ### 2. Work Completed Today
-- Concrete deliverables
+- Bullet points of achievements
 
 ### 3. Issues / Delays
-- Problems identified
+- Problems and blockers
 
 ### 4. Risks / Attention Required
 - **Critical items in bold**
-- Management attention needed
 
 ### 5. Tomorrow's Planned Work
 - Scheduled activities
@@ -131,140 +203,48 @@ Every report follows this exact structure:
 - Awaiting approvals
 ```
 
-**Features:**
-- ✅ Professional executive tone
-- ✅ Maximum 1 page length
-- ✅ Facts extracted from messages (no hallucinations)
-- ✅ Similar updates grouped logically
-- ✅ Risks and delays highlighted clearly
+---
+
+## 📱 How to Export WhatsApp Chat
+
+1. Open WhatsApp → Go to group chat
+2. Tap ⋮ (Menu) → **More** → **Export chat**
+3. Choose **Without media**
+4. Save the .txt file
+5. Move to `input/` folder
+6. Run: `python scripts/generate_report.py "input/file.txt" "Site Name"`
 
 ---
 
-## 📁 Project Structure
+## ⚙️ Features
 
-```
-whatsapp-eod/
-├── START_HERE.md           ⭐ Begin here for setup
-├── README.md               📄 This file (overview)
-├── SETUP.md                📖 Detailed setup guide
-│
-├── generate_report.py      ⭐ Main script (use this!)
-├── parser.py               🔧 Message extraction
-├── summarizer.py           🤖 AI report generation
-├── run.py                  🔍 Parse-only mode
-├── check_setup.py          ✓  Setup verification
-├── requirements.txt        📦 Python dependencies
-│
-├── input/                  📥 Put WhatsApp .txt files here
-├── output/                 📤 Generated reports go here
-└── docs/                   📚 Additional documentation
-    ├── QUICK_REFERENCE.md
-    ├── EXAMPLE_REPORT.md
-    ├── PROJECT_SUMMARY.md
-    └── WORKFLOW.md
-```
-
----
-
-## 🎓 When to Use Each Script
-
-### 99% of the time: `generate_report.py`
-```bash
-python generate_report.py "input/chat.txt" "Site Name"
-```
-**Does everything:** Parse → Validate → AI Summarize → Save
-
-### When you want to check parsing quality first: `run.py`
-```bash
-python run.py "input/chat.txt"
-# Review the parsed JSON
-# Then run summarizer if it looks good
-python summarizer.py "output/chat_parsed.json" "Site Name"
-```
-
-### When something isn't working: `check_setup.py`
-```bash
-python check_setup.py
-# Shows what's configured correctly and what needs fixing
-```
-
----
-
-## 🔧 API Configuration (Where to Update)
-
-All API-related code is in **`summarizer.py`**:
-
-### Lines 14-25: API Key Configuration
-```python
-AI_PROVIDER = os.getenv("AI_PROVIDER", "anthropic")
-
-if AI_PROVIDER == "anthropic":
-    API_KEY = os.getenv("ANTHROPIC_API_KEY")  # ← Update here
-elif AI_PROVIDER == "openai":
-    API_KEY = os.getenv("OPENAI_API_KEY")     # ← Or here
-elif AI_PROVIDER == "openrouter":
-    API_KEY = os.getenv("OPENROUTER_API_KEY")  # ← Or here
-```
-
-### Lines 106-197: AI Functions
-- **Line 106**: `summarize_with_anthropic()` - Claude API
-- **Line 136**: `summarize_with_openai()` - GPT-4 API
-- **Line 168**: `summarize_with_openrouter()` - OpenRouter API (NEW!)
-
-**To change model**, edit the `model` parameter in these functions.
-
----
-
-## ✅ Features & Validation
-
-### Parser Features
+### Parser
 - ✅ Extracts timestamp, sender, message
-- ✅ Filters system messages (group changes, encryption notices)
-- ✅ Cleans Unicode artifacts (WhatsApp formatting)
-- ✅ Handles multi-line messages correctly
-- ✅ Windows/Mac/Linux compatible
+- ✅ Filters system messages
+- ✅ Cleans Unicode artifacts
+- ✅ Handles multi-line messages
+- ✅ Cross-platform (Windows/Mac/Linux)
 
-### Summarizer Features
-- ✅ Three AI providers (Anthropic, OpenAI, OpenRouter)
-- ✅ Fact-grounded (no hallucinations)
-- ✅ Structured 6-section format
-- ✅ Executive professional tone
+### Summarizer
+- ✅ 3 AI providers (Anthropic, OpenAI, OpenRouter)
+- ✅ No hallucinations (fact-grounded)
+- ✅ Professional executive tone
 - ✅ Risk highlighting (bold critical items)
-- ✅ Length control (1 page max)
-
-### Quality Gates
-- ✅ Preview first 10 messages
-- ✅ No crashes (robust error handling)
-- ✅ Clean output (no garbage)
-- ✅ Validation with real data (149 messages from 235 lines)
+- ✅ 1-page length control
 
 ---
 
 ## 💰 Cost Estimates
 
-**For typical daily chat (200 messages ≈ 5000 tokens):**
+**Per typical report (~200 messages):**
 
-| Provider | Per Report | 100 Reports | Annual (Daily) |
-|----------|-----------|-------------|----------------|
-| Claude 3.5 Sonnet | $0.05 | $5/month | $60/year |
-| GPT-4o | $0.04 | $4/month | $48/year |
-| OpenRouter | $0.03-0.08 | $3-8/month | $36-96/year |
+| Provider | Per Report | 100 Reports/Month |
+|----------|-----------|-------------------|
+| Claude 3.5 Sonnet | $0.05 | $5 |
+| GPT-4o | $0.04 | $4 |
+| OpenRouter | $0.03-0.08 | $3-8 |
 
-**Note:** All providers offer free trial credits for new users!
-
----
-
-## 📚 Documentation
-
-| Document | Purpose |
-|----------|---------|
-| **START_HERE.md** | 5-minute setup guide (begin here!) |
-| **README.md** | Project overview (this file) |
-| **SETUP.md** | Detailed setup & troubleshooting |
-| **docs/QUICK_REFERENCE.md** | Command cheat sheet |
-| **docs/EXAMPLE_REPORT.md** | Sample output |
-| **docs/PROJECT_SUMMARY.md** | Complete project details |
-| **docs/WORKFLOW.md** | Visual workflow diagrams |
+All providers offer free trial credits!
 
 ---
 
@@ -274,57 +254,61 @@ elif AI_PROVIDER == "openrouter":
 
 **"API key not set"**
 ```bash
-# Re-run the appropriate command from START_HERE.md Step 3
-$env:ANTHROPIC_API_KEY='your-key'  # Windows
-export ANTHROPIC_API_KEY='your-key'  # Mac/Linux
+# Re-run the appropriate command from Quick Start Step 2
 ```
 
 **"Package not installed"**
 ```bash
-pip install -r requirements.txt
+pip install -r engine/requirements.txt
 ```
 
 **"No messages parsed"**
 - Verify WhatsApp export is in standard format
-- Check file contains actual messages, not just system notifications
+- Check file contains actual messages
 
 **Still stuck?**
 ```bash
-python check_setup.py  # Diagnoses common issues
+python scripts/check_setup.py  # Diagnoses issues
 ```
 
-See `SETUP.md` for detailed troubleshooting.
+**For detailed troubleshooting**: See `SETUP.md`
+
+---
+
+## 📚 Additional Documentation
+
+- **SETUP.md** - Detailed troubleshooting guide
+- **docs/** - Reference materials (examples, technical details)
+
+---
+
+## ✅ Validation
+
+Tested with real WhatsApp data:
+- **Input**: 235 lines (raw export)
+- **Parsed**: 149 clean messages
+- **Success rate**: 100%
+- **No crashes**: Robust error handling
 
 ---
 
 ## 🎯 Remember
 
-**The only command you need:**
+**The one command you need:**
 ```bash
-python generate_report.py "input/chat.txt" "Site Name"
+python scripts/generate_report.py "input/chat.txt" "Site Name"
 ```
 
-**The only file you need to edit (for API config):**
+**API config location:**
 ```
-summarizer.py (lines 14-25 for API keys, lines 106-197 for models)
+engine/summarizer.py (lines 14-197)
 ```
 
-**The guide to start with:**
+**Need help?**
 ```
-START_HERE.md
+SETUP.md (detailed troubleshooting)
 ```
 
 ---
 
-## 📞 Support
-
-- **Setup issues**: See `START_HERE.md`
-- **Detailed config**: See `SETUP.md`
-- **Command syntax**: See `docs/QUICK_REFERENCE.md`
-- **Sample output**: See `docs/EXAMPLE_REPORT.md`
-
----
-
-**Status**: ✅ Production Ready | 🚀 Updated with OpenRouter Support
-
-**Last Updated**: 2026-01-06 | **Version**: 2.0
+**Version**: 2.0 | **Status**: Production Ready | **Last Updated**: 2026-01-06

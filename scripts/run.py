@@ -11,7 +11,11 @@ Example:
 
 import sys
 import os
-from parser import parse_whatsapp_chat, save_to_json, validate_messages
+
+# Add parent directory to path to import from engine
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
+from engine.parser import parse_whatsapp_chat, save_to_json, validate_messages
 
 
 def main():

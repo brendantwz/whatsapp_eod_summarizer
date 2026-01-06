@@ -7,8 +7,12 @@ Usage: python generate_report.py "input/chat.txt" [site_name]
 
 import sys
 import os
-from parser import parse_whatsapp_chat, save_to_json, validate_messages
-from summarizer import generate_eod_report, save_report
+
+# Add parent directory to path to import from engine
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
+from engine.parser import parse_whatsapp_chat, save_to_json, validate_messages
+from engine.summarizer import generate_eod_report, save_report
 
 
 def main():
