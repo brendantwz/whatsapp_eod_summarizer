@@ -10,9 +10,26 @@ import sys
 from datetime import datetime
 from .parser import parse_whatsapp_chat
 
+# Load environment variables from .env file if available
+try:
+    from dotenv import load_dotenv
+    load_dotenv()  # Load .env file from project root
+except ImportError:
+    # python-dotenv not installed, will use system environment variables
+    pass
+
 
 # AI Provider Configuration
 AI_PROVIDER = os.getenv("AI_PROVIDER", "anthropic")  # "anthropic", "openai", or "openrouter"
+
+# Model Configuration (with sensible defaults)
+DEFAULT_ANTHROPIC_MODEL = "claude-3-5-sonnet-20241022"
+DEFAULT_OPENAI_MODEL = "gpt-4o"
+DEFAULT_OPENROUTER_MODEL = "anthropic/claude-3.5-sonnet"
+
+ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", DEFAULT_ANTHROPIC_MODEL)
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", DEFAULT_OPENAI_MODEL)
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", DEFAULT_OPENROUTER_MODEL)
 
 # API Key mapping based on provider
 if AI_PROVIDER == "anthropic":
@@ -62,6 +79,8 @@ CRITICAL RULES:
 - Use professional, executive tone
 - Keep the report to maximum 1 page when formatted
 - Extract concrete deliverables, timelines, and action items
+- Only include messages in the last 24 hours
+- Provide context on previous days work and progress if needed
 
 {site_instruction}
 Report date: {date}
@@ -103,8 +122,9 @@ Generate the report now:"""
     return prompt
 
 
-def summarize_with_anthropic(messages, site_name=None, model="claude-3-5-sonnet-20241022"):
+def summarize_with_anthropic(messages, site_name=None, model=None):
     """Generate EOD report using Anthropic Claude API"""
+    model = model or ANTHROPIC_MODEL
     try:
         import anthropic
     except ImportError:
@@ -133,8 +153,9 @@ def summarize_with_anthropic(messages, site_name=None, model="claude-3-5-sonnet-
     return message.content[0].text
 
 
-def summarize_with_openai(messages, site_name=None, model="gpt-4o"):
+def summarize_with_openai(messages, site_name=None, model=None):
     """Generate EOD report using OpenAI API"""
+    model = model or OPENAI_MODEL
     try:
         from openai import OpenAI
     except ImportError:
@@ -165,8 +186,9 @@ def summarize_with_openai(messages, site_name=None, model="gpt-4o"):
     return response.choices[0].message.content
 
 
-def summarize_with_openrouter(messages, site_name=None, model="anthropic/claude-3.5-sonnet"):
+def summarize_with_openrouter(messages, site_name=None, model=None):
     """Generate EOD report using OpenRouter API"""
+    model = model or OPENROUTER_MODEL
     try:
         from openai import OpenAI
     except ImportError:

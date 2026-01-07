@@ -2,6 +2,10 @@
 
 **For quick start, see README.md. This guide covers advanced setup and problem-solving.**
 
+📖 **Related Documentation:**
+- [ENV_SETUP.md](docs/ENV_SETUP.md) - Environment variables and API key configuration
+- [SECURITY.md](docs/SECURITY.md) - Security best practices and API key protection
+
 ---
 
 ## 🔧 Advanced Setup

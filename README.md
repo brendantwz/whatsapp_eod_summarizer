@@ -4,7 +4,18 @@
 
 ---
 
-## 🚀 Quick Start (5 Minutes)
+- ✅ **No crashes** - Robust error handling
+- ✅ **Clean messages** - Unicode characters and WhatsApp formatting removed
+- ✅ **System messages filtered** - Only real user messages included
+- ✅ **Multi-line support** - Handles messages spanning multiple lines
+- ✅ **JSON output** - Standard format for easy integration
+
+**Recommended Reading Order:**
+1. `README.md` - Quick start
+2. `API_KEY_GUIDE.md` - Understand API key storage
+3. `ENV_SETUP.md` - Detailed setup
+4. `SECURITY.md` - Security practices
+5. `SETUP.md` - If you have issues
 
 ### 1. Install Dependencies
 ```bash
@@ -12,6 +23,22 @@ pip install -r engine/requirements.txt
 ```
 
 ### 2. Choose AI Provider & Set API Key
+
+📖 **Documentation:**
+- **[API_KEY_GUIDE.md](docs/API_KEY_GUIDE.md)** - Quick reference for API key storage
+- **[ENV_SETUP.md](docs/ENV_SETUP.md)** - Detailed environment setup
+- **[SECURITY.md](docs/SECURITY.md)** - Security best practices
+
+**Recommended: Use `.env` file (most secure)**
+```bash
+# Copy the sample file
+cp env.sample .env
+
+# Edit .env with your actual API key
+# The .env file is protected by .gitignore
+```
+
+**Alternative: Use environment variables directly**
 
 **Pick ONE option:**
 
@@ -141,25 +168,49 @@ Shows what's configured correctly and what needs fixing.
 
 **All API settings are in ONE file: `engine/summarizer.py`**
 
-### Lines 14-25: API Key Configuration
+### Model Configuration (Lines 25-32)
+
+✅ **Models are now configurable via environment variables!**
+
+```python
+# Default models (can be overridden)
+DEFAULT_ANTHROPIC_MODEL = "claude-3-5-sonnet-20241022"
+DEFAULT_OPENAI_MODEL = "gpt-4o"
+DEFAULT_OPENROUTER_MODEL = "anthropic/claude-3.5-sonnet"
+
+# Load from environment or use defaults
+ANTHROPIC_MODEL = os.getenv("ANTHROPIC_MODEL", DEFAULT_ANTHROPIC_MODEL)
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", DEFAULT_OPENAI_MODEL)
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", DEFAULT_OPENROUTER_MODEL)
+```
+
+**To change models, add to your `.env` file:**
+```env
+ANTHROPIC_MODEL=claude-3-opus-20240229
+OPENAI_MODEL=gpt-4-turbo
+OPENROUTER_MODEL=openai/gpt-4o
+```
+
+### API Key Configuration (Lines 34-42)
+
 ```python
 AI_PROVIDER = os.getenv("AI_PROVIDER", "anthropic")
 
 if AI_PROVIDER == "anthropic":
-    API_KEY = os.getenv("ANTHROPIC_API_KEY")     # ← Line 18
+    API_KEY = os.getenv("ANTHROPIC_API_KEY")
 elif AI_PROVIDER == "openai":
-    API_KEY = os.getenv("OPENAI_API_KEY")        # ← Line 20
+    API_KEY = os.getenv("OPENAI_API_KEY")
 elif AI_PROVIDER == "openrouter":
-    API_KEY = os.getenv("OPENROUTER_API_KEY")    # ← Line 22
+    API_KEY = os.getenv("OPENROUTER_API_KEY")
 ```
 
-### Lines 106-197: AI Provider Functions
+### Available Models
 
-| Lines | Function | Provider | Change Model |
-|-------|----------|----------|--------------|
-| 106-133 | `summarize_with_anthropic()` | Claude | Edit line 106 |
-| 136-165 | `summarize_with_openai()` | GPT-4 | Edit line 136 |
-| 168-197 | `summarize_with_openrouter()` | OpenRouter | Edit line 168 |
+| Provider | Models | Cost/Report |
+|----------|--------|-------------|
+| **Anthropic** | claude-3-5-sonnet-20241022 (default)<br>claude-3-opus-20240229<br>claude-3-sonnet-20240229<br>claude-3-haiku-20240307 | $0.03-0.08 |
+| **OpenAI** | gpt-4o (default)<br>gpt-4-turbo<br>gpt-4<br>gpt-3.5-turbo | $0.02-0.06 |
+| **OpenRouter** | 100+ models available<br>See: https://openrouter.ai/models | Varies |
 
 **To change AI model:**
 1. Open `engine/summarizer.py`
